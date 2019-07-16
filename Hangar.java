@@ -4,10 +4,10 @@ public class Hangar {
         
         Car clio = new Car("Clio", 0);
 
-        System.out.println("Je suis " + clio.getBand() + " et je fais " + clio.doStuff());
+        System.out.println(clio.doStuff());
         
         Boat titanic = new Boat("Titanic", 0);
 
-        System.out.println("Je suis " + titanic.getBand() + " et je fais " + titanic.doStuff());
+        System.out.println(titanic.doStuff());
     }
 }

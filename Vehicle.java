@@ -1,22 +1,22 @@
 public abstract class Vehicle {
 
     //attributs
-    private String band;
+    private String brand;
     private int kilometers;
 
     //constructeurs
-    public Vehicle(String band, int kilometers) {
-        this.band = band;
+    public Vehicle(String brand, int kilometers) {
+        this.brand = brand;
         this.kilometers = kilometers;
     }
 
     //getters et setters
-    public String getBand() {
-        return band;
+    public String getbrand() {
+        return brand;
     }
 
-    public void setBand(String band) {
-        this.band = band;
+    public void setbrand(String brand) {
+        this.brand = brand;
     }
 
     public int getKilometers() {

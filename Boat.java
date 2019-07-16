@@ -1,11 +1,11 @@
 public class Boat extends Vehicle {
 
-    public Boat(String band, int kilometers) {
-        super(band, kilometers);
+    public Boat(String brand, int kilometers) {
+        super(brand, kilometers);
     }
 
     @Override
     public String doStuff() {
-        return "glou glou !";
+        return "Je suis Titanic et je fais glou glou !";
     }
 }
