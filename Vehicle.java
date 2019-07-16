@@ -11,11 +11,11 @@ public abstract class Vehicle {
     }
 
     //getters et setters
-    public String getbrand() {
+    public String getBrand() {
         return brand;
     }
 
-    public void setbrand(String brand) {
+    public void setBrand(String brand) {
         this.brand = brand;
     }
 
